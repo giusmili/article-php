@@ -41,7 +41,7 @@
 ```
 
 ---
-<p style="text-align: center"> &copy; -  <img alt="AUR License" src="https://img.shields.io/aur/license/c">
+<p font align="center"> &copy; -  <img alt="AUR License" src="https://img.shields.io/aur/license/c">
 </p>
     
 
