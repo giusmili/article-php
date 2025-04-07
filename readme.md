@@ -1,5 +1,5 @@
 <h1 font  align="center">
-<span style="color:rgb(242, 167, 18)">Article php</span> 🚀</h1> 
+<span style="color: red;">Article php</span> 🚀</h1> 
 
 > <p style="text-align:justify">✅ Un exemple dynamique de publication de contenu par PHP
 >Nous avons modilisé un tableau de données multidimentionnelles et les afficher coté client</p>
