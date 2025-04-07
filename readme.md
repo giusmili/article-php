@@ -5,7 +5,7 @@
 >Nous avons modilisé un tableau de données multidimentionnelles et les afficher coté client</p>
 
 **Exemple** ✏️
-```php=
+```php
  $languages = [
      [
          'lang'    => 'PHP',
