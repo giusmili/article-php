@@ -19,7 +19,7 @@
         <blockquote>
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, voluptatum.<br>
-                <a href="#">En savoir plus &raquo;</a>
+                <a href="publication.php">En savoir plus &raquo;</a>
             </p>
         </blockquote>
     </main>
