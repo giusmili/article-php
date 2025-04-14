@@ -1,6 +1,7 @@
 <?php
 class Article{
     static function userArticle(){
+        
         $articles = [
         "cover"=>"./asset/cover.jpg",
         "title"=>"Description de l'article",
@@ -11,7 +12,8 @@ class Article{
     return $articles;
     }
 }
-  $articles = Article::userArticle();
+$articles = Article::userArticle();
+ /*  
     // print_r($articles)  # test à regarder dans le tableau les données
 
     foreach ($articles as $key => $value) {
@@ -22,7 +24,7 @@ class Article{
                 <h2>"
             .$articles["title"]."</h2>
             <p>".$articles["content"]."</p>
-            <figcaption>";
+            <figcaption>"; */
 
 ?>
 
