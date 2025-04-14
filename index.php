@@ -9,11 +9,11 @@
     <!-- header -->
     <main>
         <?php
-           include_once __DIR__ .'/partial/main.inc.php'; 
+           # include_once __DIR__ .'/partial/main.inc.php'; 
         ?>
         <figure>
             <?php
-            include_once __DIR__ .'/controller/baseController.php'; 
+                include_once __DIR__ .'/controller/baseController.php'; 
             ?>
         </figure>
         <blockquote>
