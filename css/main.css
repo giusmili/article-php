@@ -74,6 +74,7 @@ blockquote{
 .table-primary{
     max-width: 90em;
     margin: 0 auto;
+
     
     table{
         width: 100%;
@@ -83,15 +84,15 @@ blockquote{
         thead th, tbody td, tfoot th{
             border-collapse: collapse;
             border: solid .1rem #fff;
-            padding: 1rem;
+            padding: .5em;
         }
-        thead th{
+        thead th, tfoot th{
             background-color: #ccc;
             color: #222;
-            font-weight: normal;}
+            font-weight: normal;
     }
 
-    
+}
         
     
 }
