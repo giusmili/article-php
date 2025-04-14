@@ -1,15 +1,15 @@
 <?php
-    include_once __DIR__ .'./partial/head.inc.php';
+    include_once __DIR__ .'/partial/head.inc.php';
 ?>
 <!-- head -->
 <body>
     <?php
-    include_once __DIR__ .'./partial/header.inc.php';
+    include_once __DIR__ .'/partial/header.inc.php';
     ?>
     <!-- header -->
     <main>
         <?php
-           include_once __DIR__ .'./partial/main.inc.php'; 
+           include_once __DIR__ .'/partial/main.inc.php'; 
         ?>
         <blockquote>
             <p>
