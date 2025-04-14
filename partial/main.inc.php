@@ -1,7 +1,7 @@
 <?php
     include_once './controller/baseController.php'
 ?>
-    <figure>
+   
         <?php
 
         foreach($articles as $key => $value){
@@ -20,7 +20,6 @@
          }
 
 
-        ?>
- 
-    </figure>
+    ?>
+
 
