@@ -5,7 +5,9 @@
     <?php
     include_once __DIR__ .'/partial/header.inc.php';
     ?>
-<?php
+<main>
+    <?php
+
     $articles = [
         [
             "title"=>"Php and POO",
@@ -28,7 +30,7 @@
     ];
 
 ?>
-    <main>
+  
         <!-- content table -->
          <div class="table-primary" role="region" aria-labelledby="table">
                 <table id="table">
