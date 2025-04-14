@@ -71,6 +71,32 @@ blockquote{
     }
     margin-bottom: 2rem;
 }
+.table-primary{
+    max-width: 70rem;
+    margin: 0 auto;
+    
+    table{
+        width: 100%;
+        color: #fff;
+        border-collapse: collapse;
+        border: solid .1rem #fff;
+        thead th, tbody td, tfoot th{
+            border-collapse: collapse;
+            border: solid .1rem #fff;
+            padding: 1rem;
+        }
+        thead th{
+            background-color: #ccc;
+            color: #222;
+            font-weight: normal;
+        }
+    }
+
+    
+        
+    
+}
+
 footer *{
     text-align: center;
     color: var(--color-text);
