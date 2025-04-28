@@ -50,7 +50,10 @@
                             <tr>
                                 <td><?= $value["title"] ?></td>
                                 <td><?= $value["content"] ?></td>
-                                <td><a href="<?= $value["url"]?>" target="blank"><?= $value["link"] ?> &raquo;</a></td>
+                                <td>
+                                    <a href="<?= $value["url"]?>" target="blank">
+                                    <?= $value["link"] ?> &raquo;</a>
+                                </td>
                              
                             </tr>
 
