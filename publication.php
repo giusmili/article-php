@@ -42,7 +42,7 @@
                             <th>Titre</th>
                             <th>Déscription</th>
                             <th>Référence</th>
-                            <th>Url</th>
+                          
                         </tr>
                     </thead>
                     <tbody> 
@@ -50,8 +50,8 @@
                             <tr>
                                 <td><?= $value["title"] ?></td>
                                 <td><?= $value["content"] ?></td>
-                                <td><?= $value["link"] ?></td>
-                                <td><?= $value["url"] ?></td>
+                                <td><a href="<?= $value["url"]?>" target="blank"><?= $value["link"] ?> &raquo;</a></td>
+                             
                             </tr>
 
                         <?php endforeach ?>
@@ -66,7 +66,7 @@
                             <th>Titre</th>
                             <th>Déscription</th>
                             <th>Référence</th>
-                            <th>Url</th>
+                          
                     
                         </tr>
                     </tfoot>
