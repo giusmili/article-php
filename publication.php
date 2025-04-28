@@ -9,7 +9,7 @@
     <?php
 
     include_once __DIR__ .'/controller/controllerArticle.php';
-    $articles = Article::article();
+
    
     ?>
   

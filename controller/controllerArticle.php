@@ -1,7 +1,7 @@
 <?php
     class Article{
 
-       static function article(){
+       public function article(){
             $articles = [
                 [
                     "title"=>"Php and POO",
@@ -28,4 +28,6 @@
         }
     }
 
-
+# $articles = Article::article(); // méthode static
+$newArticle = new Article();
+$articles = $newArticle->article();
