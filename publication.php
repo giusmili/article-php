@@ -30,8 +30,8 @@
                     <tbody> 
                         <?php foreach($articles as $value): ?>
                             <tr>
-                                <td><?= $value["title"] ?></td>
-                                <td><?= $value["content"] ?></td>
+                                <td><?= $value["titre"] ?></td>
+                                <td><?= $value["description"] ?></td>
                                 <td>
                                     <a href="<?= $value["url"]?>" target="blank">
                                     <?= $value["link"] ?> &raquo;</a>

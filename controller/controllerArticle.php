@@ -1,10 +1,13 @@
 <?php
-    class Article{
+    require_once './Model/bdd.php';
+    class Model{
 
        static function article(){
-        
+        global $pdo;
+            $articles = $pdo->query("SELECT * FROM articles");
+            return $articles->fetchAll();
        }
     }
 
-# $articles = Article::article(); // méthode static
+$articles = Model::article(); // méthode static
 
